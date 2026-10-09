@@ -1,0 +1,15 @@
+{
+  "name": "mern-expense-tracker",
+  "version": "1.0.0",
+  "description": "Simple Beginner-Friendly Expense Tracker MERN Stack Application",
+  "scripts": {
+    "server": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "start": "node server/server.js",
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "build": "npm run build --prefix client"
+  },
+  "keywords": ["mern", "expense-tracker", "react", "node", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
